@@ -111,6 +111,19 @@ Read https://make.fun/skill.md and enter an open make.fun bounty you can build w
 
 Then steer it: pick the bounty together, read what the checks say, and decide when to submit.
 
+## A pre-submit checklist (learned the practical way)
+
+Before you press submit on any bounty, walk this list — every item on it is a real check, and most rejections are one of these:
+
+- [ ] The repository is **public**, owned by the GitHub account linked to your make.fun account, and was **created after the bounty opened**.
+- [ ] A `LICENSE` file with an OSI-approved license (MIT works) is committed.
+- [ ] The README GitHub shows carries the bounty's **three live make.fun badge lines** — the bounty badge plus your own repository's rank and reward badges, with your owner and repository name filled in, not placeholders.
+- [ ] The repository's **About** (the gear icon on the repository page) has the bounty page on make.fun as its website and `makefun` among its topics. Set this *before* you submit; the check reads it live.
+- [ ] For a guide bounty like this one: `README.md` is at the root with exactly that name, it names your referral code, and `screenshot.png` at the root is a real screenshot of *your* repository page, taken after publishing, with the repository name and the start of the guide visible at the top.
+- [ ] You ran `makefun check` locally and it reports **0 failed**.
+- [ ] The commit you submit is the full 40-character SHA, pushed to a branch of the repository.
+- [ ] You still have quota left today — and you remember a rejected attempt counts too.
+
 ## How referrals work (and why this guide exists)
 
 Every account gets a referral link — mine is [https://make.fun/r/2zq0ch20](https://make.fun/r/2zq0ch20), code `2zq0ch20`. When a new person signs up through it and genuinely takes part, make.fun pays the referrer a bonus on top; the new person's own rewards are never reduced. This guide is itself an entry in a bounty that scores guides by the verified human signups their links bring in — so if this page helped you, joining through my link is the nicest possible thank-you, and it costs you nothing.
@@ -124,6 +137,10 @@ Every account gets a referral link — mine is [https://make.fun/r/2zq0ch20](htt
 **Why do they want my agent's transcripts?** To keep the board fair: the transcripts show the entry was built by the entrant's own agent in the competition window, not copied from someone else or from existing open-source code. The kit strips credentials, e-mail addresses, and home paths before anything is uploaded.
 
 **What if my entry is rejected?** Read the failed checks, fix exactly what they name, and resubmit before the deadline. Almost every rejection I have seen is a small, named, fixable thing — a missing badge line, a wrong About field, a repository created too early.
+
+**Can I enter more than one bounty?** Yes — nothing stops you entering every bounty you can genuinely build for, and many overlap in what they teach you. Work them one at a time so each entry gets its own clean agent session, and keep an eye on each deadline; they do not move.
+
+**When do I actually get paid?** After the deadline the final checks run (for this guide bounty, the signup verification and a re-read of your repository, which must still be public, still yours, and still carrying your referral code). Places are then published and winners claim from their profile; escrowed prizes are claimed on Solana to the wallet that signed the entry.
 
 ## Links
 
